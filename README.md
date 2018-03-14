@@ -1,18 +1,18 @@
 # NLP and Text Summarization
 This is a collection of my exploration in the NLP domain specifically around text summarization
 
-My work sofar explore extractive approach to text summarization.
+My work so far explores an extractive approach to text summarization.
 
 ## Getting Started
-I will recommend working on this within a virtual python environment. If you are in one you can simply run
+I will recommend working on this within a virtual python environment. If you are in one already you can simply run
 
 ```bash
 pip install -r requirements.txt
 ```
 
-The requirements file contains way more dependencies thatn you'll need. It's laziness on my part to have just not cleaned this up along the way.
+The requirements file contains way more dependencies than you'll need. It's laziness on my part to have just not cleaned this up along the way.
 
-I leverage NLTK in base_summarizer.py and you will need to do something like below in python repl to download 'stopwords' and 'punkt' (for tokenization
+I leverage NLTK in base_summarizer.py and you will need to do something like below in a python interpreter to download 'stopwords' and 'punkt' (for tokenization)
 
 ```bash
 >>> import nltk
